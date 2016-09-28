@@ -1,0 +1,240 @@
+/* CSS Resets */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/* ==================================================================================================================== */
+/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
+/* ==================================================================================================================== */
+body {
+font-family: Rockwell;
+background: #cccccc;
+}
+	
+.container p {
+color: black;
+margin: 20px 0 0 0;
+}
+	
+h3{
+text-align: center;
+padding-top: 10px;
+}
+	
+h2{
+text-align: center;
+}
+	
+.container {
+background: #66FF99;
+}
+	
+.container {
+padding-left: 20px;
+padding-right: 20px;
+max-width:800px;
+margin: 0 auto;
+}
+
+.row {
+width: 100%;
+max-width: 1140px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+table {
+margin: 0 auto;
+padding: 20px;
+}
+table td {
+padding: 10px;
+}
+.onecol, .twocol, .threecol, .navfourcol, .fourcol, .fivecol, .sixcol, .sixcolsocial, .sevencol, .eightcol, .ninecol, .soccerarmyninecol, .tencol, .elevencol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row.fourcol {
+width: 30.75%;
+}
+a {
+text-decoration:none;
+color:black;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+/*Home Page*/
+.row .navfourcol {
+width: 30.75%;
+background:#CF1414;
+height: 40px;
+}
+.row .navfourcol:hover {
+background-color:yellow;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+text-align: center;
+}
+
+/*About*/
+.row .sixcolsocial {
+width: 48%;
+text-align: center;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+}
+
+.row .ninecol {
+width: 74.05%;
+}
+
+/*Home Page*/
+.row .soccerarmyninecol {
+width: 74.05%;
+}
+.row .tencol {
+width: 82.7%;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.row .navfootercol {
+width: 100%;
+float: left;
+background:#CF1414;
+text-align: center;
+}
+/*Home Page*/
+.row .titletwelvecol {
+width: 100%;
+text-align: center;
+padding: 40px;
+}
+/*Home Page*/
+.row .videotwelvecol {
+width: 100%;
+float: right;
+}
+/*Home Page*/
+.row .bannertwelvecol {
+width: 100%;
+float: left;
+text-align: center;
+color: #66FF99;
+/*margin-left:12%;
+padding-bottom: 20px;*/
+padding-top: 20px;
+}
+
+/*About page */
+ .twelvecollasts {
+padding-bottom:20px;
+width: 100%;
+text-align: center;
+color:;
+}
+
+/* About page */
+.row .twelvecollasts  .submit{
+text-align: center;
+}
+
+
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	}
+	
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 16px;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .navfourcol, .row .fivecol, .row .sixcol, .row .sixcolsocial, .row .sevencol, .row .eightcol, .row .ninecol, .row .soccerarmyninecol, .row .tencol, .row .elevencol, .row .twelvecol, .row .bannertwelvecol, .row .videotwelvecol, .row .titletwelvecol, .row .navfootercol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+	.row .navfourcol {
+	margin-bottom: 10px;
+	}
+	
+	/*.row .soccerarmyninecol{
+	}*/
+
+}
